@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public int life = 10;
+    public int health = 10;
     public float speed = 3.5f;
     public bool isAlive = true;
     public string namePlayer = "legolas";
@@ -12,7 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject floor;
     public Transform enemy;
 
-    void testMethod()
+    void jump()
     {
 
     }
