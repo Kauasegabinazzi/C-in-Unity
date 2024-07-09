@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int life = 10;
+    public float speed = 3.5f;
+    public bool isAlive = true;
+    public string namePlayer = "legolas";
 
-    // Update is called once per frame
-    void Update()
+    public GameObject floor;
+    public Transform enemy;
+
+    void testMethod()
     {
-        
+
     }
 
     void attack()
